@@ -94,6 +94,7 @@
         _tableView.delegate = self;
         _tableView.scrollEnabled = NO;
         _tableView.showsVerticalScrollIndicator = NO;
+        _tableView.backgroundColor = [UIColor greenColor];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     }
     
