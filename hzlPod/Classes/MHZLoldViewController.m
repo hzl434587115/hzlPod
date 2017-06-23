@@ -6,9 +6,9 @@
 //
 //
 
-#import "HZLoldViewController.h"
+#import "MHZLoldViewController.h"
 
-@interface HZLoldViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface MHZLoldViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation HZLoldViewController
+@implementation MHZLoldViewController
 
 #pragma mark - life cycle
 

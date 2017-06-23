@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HZLNewViewController : UIViewController
+@interface MHZLNewViewController : UIViewController
 
 @end

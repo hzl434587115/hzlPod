@@ -6,10 +6,10 @@
 //
 //
 
-#import "HZLNewViewController.h"
-#import "HZLoldViewController.h"
+#import "MHZLNewViewController.h"
+#import "MHZLoldViewController.h"
 
-@interface HZLNewViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface MHZLNewViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation HZLNewViewController
+@implementation MHZLNewViewController
 
 #pragma mark - life cycle
 
@@ -67,7 +67,7 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath
 {
-    HZLoldViewController *vc = [[HZLoldViewController alloc]init];
+    MHZLoldViewController *vc = [[MHZLoldViewController alloc]init];
     vc.titleString = self.netArray[indexPath.row];
     [self.navigationController pushViewController:vc animated:YES];
 }

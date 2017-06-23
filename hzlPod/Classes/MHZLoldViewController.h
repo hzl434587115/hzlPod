@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HZLoldViewController : UIViewController
+@interface MHZLoldViewController : UIViewController
 
 @property (nonatomic, copy) NSString *titleString;
 
