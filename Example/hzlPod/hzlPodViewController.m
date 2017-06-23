@@ -7,7 +7,7 @@
 //
 
 #import "hzlPodViewController.h"
-#import <hzlPod/MHZLoldViewController.h>
+#import <hzlPod/MHZLNewViewController.h>
 
 @interface hzlPodViewController ()
 
@@ -34,8 +34,8 @@
 
 -(void)getAction:(UIButton*)sender
 {
-//    HZLNewViewController *vc = [[HZLNewViewController alloc]init];
-//    [self.navigationController pushViewController:vc animated:YES];
+    MHZLNewViewController *vc = [[MHZLNewViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

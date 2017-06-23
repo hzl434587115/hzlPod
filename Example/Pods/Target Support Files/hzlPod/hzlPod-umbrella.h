@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "MHZLEndViewController.h"
+#import "MHZLNewViewController.h"
+#import "MHZLoldViewController.h"
 
 FOUNDATION_EXPORT double hzlPodVersionNumber;
 FOUNDATION_EXPORT const unsigned char hzlPodVersionString[];
