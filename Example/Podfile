@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'hzlPod_Example' do
+  pod 'hzlPod', :path => '../'
+
+  target 'hzlPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
