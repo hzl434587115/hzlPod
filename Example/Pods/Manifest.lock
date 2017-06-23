@@ -1,0 +1,16 @@
+PODS:
+  - hzlPod (0.1.0)
+
+DEPENDENCIES:
+  - hzlPod (from `../`)
+
+EXTERNAL SOURCES:
+  hzlPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  hzlPod: 80dd122d5f79faea812ac644d8c839b00a0d18e1
+
+PODFILE CHECKSUM: f46538bc5b54e9e9d24cf75bffa640446b98f85e
+
+COCOAPODS: 1.2.1

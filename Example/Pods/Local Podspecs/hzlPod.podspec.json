@@ -1,0 +1,22 @@
+{
+  "name": "hzlPod",
+  "version": "0.1.0",
+  "summary": "A short description of hzlPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hzl434587115/hzlPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hzl434587115": "dazhongzhizheng@126.com"
+  },
+  "source": {
+    "git": "https://github.com/hzl434587115/hzlPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "hzlPod/Classes/**/*"
+}
