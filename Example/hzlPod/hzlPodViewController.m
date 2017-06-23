@@ -7,6 +7,7 @@
 //
 
 #import "hzlPodViewController.h"
+#import <hzlPod/HZLNewViewController.h>
 
 @interface hzlPodViewController ()
 
@@ -17,13 +18,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake((self.view.frame.size.width - 60)/2, 160, 60, 40);
+    btn.backgroundColor = [UIColor brownColor];
+    [btn setTitle:@"模态" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(getAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+-(void)getAction:(UIButton*)sender
+{
+    HZLNewViewController *vc = [[HZLNewViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

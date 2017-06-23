@@ -12,6 +12,10 @@
 		51D2ABE5E722B503AD3F6CFEEB9DD130 /* Pods-hzlPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 402654F12D7687CEFD58027BDC345B2D /* Pods-hzlPod_Example-dummy.m */; };
 		5A1F144A9811B93A2297909D637A6037 /* Pods-hzlPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F8D9B957599B28BAD75E8ADA1C06CC /* Pods-hzlPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		616EA51374864A79F34B5BD867AEFC8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		62737DFA1EFD094B00E9FFF0 /* HZLNewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62737DF61EFD094B00E9FFF0 /* HZLNewViewController.h */; };
+		62737DFB1EFD094B00E9FFF0 /* HZLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62737DF71EFD094B00E9FFF0 /* HZLNewViewController.m */; };
+		62737DFC1EFD094B00E9FFF0 /* HZLoldViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62737DF81EFD094B00E9FFF0 /* HZLoldViewController.h */; };
+		62737DFD1EFD094B00E9FFF0 /* HZLoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62737DF91EFD094B00E9FFF0 /* HZLoldViewController.m */; };
 		69CFF904E6AE75CED2637D8B92A100D4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 330B70613B3A2D65E1F399DC035111B4 /* ReplaceMe.m */; };
 		74055E915958D2E832EE8FBDB032A15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B768E040375186FEE708BE56889A525C /* Pods-hzlPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 229481AC7B17B29F3930039D2E1AFB22 /* Pods-hzlPod_Tests-dummy.m */; };
@@ -36,28 +40,32 @@
 		12563C94F742CC1CCDCC2E24793AEC6A /* Pods-hzlPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hzlPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		182E55AD4FCB68BC832374596740F5D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229481AC7B17B29F3930039D2E1AFB22 /* Pods-hzlPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hzlPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		2AFD59AA43AE7C8824896B87FC00BA53 /* Pods-hzlPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-hzlPod_Tests.modulemap"; sourceTree = "<group>"; };
-		32BFEB91CF12C502BE8A8C913932DD08 /* hzlPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = hzlPod.modulemap; sourceTree = "<group>"; };
+		2AFD59AA43AE7C8824896B87FC00BA53 /* Pods-hzlPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-hzlPod_Tests.modulemap"; sourceTree = "<group>"; };
+		32BFEB91CF12C502BE8A8C913932DD08 /* hzlPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = hzlPod.modulemap; sourceTree = "<group>"; };
 		330B70613B3A2D65E1F399DC035111B4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		38EFB21093240750AA080A1742E72764 /* Pods_hzlPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hzlPod_Example.framework; path = "Pods-hzlPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D37CE4A88C02E8898AFBFDC7527AF5E /* Pods_hzlPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hzlPod_Tests.framework; path = "Pods-hzlPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EFB21093240750AA080A1742E72764 /* Pods_hzlPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hzlPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D37CE4A88C02E8898AFBFDC7527AF5E /* Pods_hzlPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hzlPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		402654F12D7687CEFD58027BDC345B2D /* Pods-hzlPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hzlPod_Example-dummy.m"; sourceTree = "<group>"; };
 		518265E4188EA8733F2D46C58F8283C0 /* Pods-hzlPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hzlPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		59122C30B44239F66D3663BD49169045 /* hzlPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hzlPod-prefix.pch"; sourceTree = "<group>"; };
+		62737DF61EFD094B00E9FFF0 /* HZLNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLNewViewController.h; sourceTree = "<group>"; };
+		62737DF71EFD094B00E9FFF0 /* HZLNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLNewViewController.m; sourceTree = "<group>"; };
+		62737DF81EFD094B00E9FFF0 /* HZLoldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLoldViewController.h; sourceTree = "<group>"; };
+		62737DF91EFD094B00E9FFF0 /* HZLoldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLoldViewController.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C6DABFD7BD564FFEF424CBBF3709873 /* Pods-hzlPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hzlPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6EB5D49019E19EBC0B79F46F504C399A /* Pods-hzlPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hzlPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		77F2760D5CD1978F99E9363FA6A286A5 /* Pods-hzlPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hzlPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		78F8D9B957599B28BAD75E8ADA1C06CC /* Pods-hzlPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hzlPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		7F104909BD314DED4BD43AC7288E41D4 /* Pods-hzlPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-hzlPod_Example.modulemap"; sourceTree = "<group>"; };
+		7F104909BD314DED4BD43AC7288E41D4 /* Pods-hzlPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-hzlPod_Example.modulemap"; sourceTree = "<group>"; };
 		8038453B744796C24D913E27738B966F /* Pods-hzlPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hzlPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8B54C134AAE737FB8B51B71D25217887 /* Pods-hzlPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hzlPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D437F6FDAC8B771CFE3B31BC2BF07D7 /* Pods-hzlPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hzlPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8EB1F8F9049DBB3D38DB9C36B414B506 /* Pods-hzlPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hzlPod_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B53F5062D92EDCCF1831D69F69850E60 /* Pods-hzlPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hzlPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C25BCF5D1012616715F87A4E55500682 /* hzlPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hzlPod-dummy.m"; sourceTree = "<group>"; };
-		D1B26FD937E6262629335AF49B3E8096 /* hzlPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = hzlPod.framework; path = hzlPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B26FD937E6262629335AF49B3E8096 /* hzlPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hzlPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51200F740E7507725CA3D6A663E7BE9 /* hzlPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hzlPod-umbrella.h"; sourceTree = "<group>"; };
 		E823D2A7C7DB5E99AE6D88FF35C560F0 /* Pods-hzlPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hzlPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F41F035CBFAC069F156FF361566C4FDF /* Pods-hzlPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hzlPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,9 +148,12 @@
 		7AE6DC0E764EB2AC89E01D21C71D0E8F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				62737DF61EFD094B00E9FFF0 /* HZLNewViewController.h */,
+				62737DF71EFD094B00E9FFF0 /* HZLNewViewController.m */,
+				62737DF81EFD094B00E9FFF0 /* HZLoldViewController.h */,
+				62737DF91EFD094B00E9FFF0 /* HZLoldViewController.m */,
 				330B70613B3A2D65E1F399DC035111B4 /* ReplaceMe.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -194,7 +205,6 @@
 			children = (
 				7AE6DC0E764EB2AC89E01D21C71D0E8F /* Classes */,
 			);
-			name = hzlPod;
 			path = hzlPod;
 			sourceTree = "<group>";
 		};
@@ -232,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A6EE2DD5994F7ED9239220A1651A56E /* hzlPod-umbrella.h in Headers */,
+				62737DFC1EFD094B00E9FFF0 /* HZLoldViewController.h in Headers */,
+				62737DFA1EFD094B00E9FFF0 /* HZLNewViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +368,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD564E8638C531EFC6012FE807B5CC33 /* hzlPod-dummy.m in Sources */,
+				62737DFD1EFD094B00E9FFF0 /* HZLoldViewController.m in Sources */,
 				69CFF904E6AE75CED2637D8B92A100D4 /* ReplaceMe.m in Sources */,
+				62737DFB1EFD094B00E9FFF0 /* HZLNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

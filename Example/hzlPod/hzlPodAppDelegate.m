@@ -7,12 +7,21 @@
 //
 
 #import "hzlPodAppDelegate.h"
+#import "hzlPodViewController.h"
 
 @implementation hzlPodAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+   
+    // 1.创建窗口
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[hzlPodViewController alloc]init]];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
